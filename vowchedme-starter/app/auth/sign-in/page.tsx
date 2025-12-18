@@ -31,13 +31,8 @@ export default function SignInPage() {
               />
 
               <button
-                className="mt-3 rounded-xl bg-vowch-500 px-5 py-3 text-sm font-extrabold text-ink-950 hover:brightness-110"
-                type="submit"
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert("UI only. Plug in your auth provider (Clerk/Auth.js/Supabase) next.");
-                }}
-              >
+className="mt-3 rounded-xl bg-vowch-500 px-5 py-3 text-sm font-extrabold text-ink-950 hover:brightness-110"
+                  type="button"
                 Sign in
               </button>
 
