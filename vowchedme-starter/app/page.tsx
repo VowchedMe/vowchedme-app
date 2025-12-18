@@ -6,7 +6,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       <SiteHeader />
-
       <main>
         <Hero />
         <TrustBar />
