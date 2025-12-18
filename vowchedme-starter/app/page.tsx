@@ -14,24 +14,20 @@ export default function SignInPage() {
               Welcome back. (Auth hookup coming next.)
             </p>
 
-            <form
-              className="mt-6 grid gap-3"
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert("UI only. Plug in your auth provider (Clerk/Auth.js/Supabase) next.");
-              }}
-            >
+            <form className="mt-6 grid gap-3">
               <label className="text-xs font-semibold text-slate-300">Email</label>
               <input
-                className="w-full rounded-xl border border-white/10 bg-ink-950/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
+                className="w-full rounded-xl border border-white/10 bg-ink-950/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-vowch-500"
                 placeholder="you@company.com"
                 type="email"
                 required
               />
 
-              <label className="mt-2 text-xs font-semibold text-slate-300">Password</label>
+              <label className="mt-2 text-xs font-semibold text-slate-300">
+                Password
+              </label>
               <input
-                className="w-full rounded-xl border border-white/10 bg-ink-950/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
+                className="w-full rounded-xl border border-white/10 bg-ink-950/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-vowch-500"
                 placeholder="••••••••"
                 type="password"
                 required
